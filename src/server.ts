@@ -1,16 +1,7 @@
-import express from "express";
+import app from "./app";
 
-import { Router, Request, Response } from "express";
+const PORT  = 3000;
 
-const app = express();
-
-const route = Router();
-
-app.use(express.json());
-
-route.get("/", (req: Request, res: Response) => {
-  res.json({ message: "hello world" });
+app.listen(PORT, () => {
+  console.log(`Server listening on port http://localhost:${PORT}`);
 });
-
-app.use(route);
-app.listen(3000, () => console.log("server listening on port 3000"));

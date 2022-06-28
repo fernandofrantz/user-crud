@@ -2,6 +2,7 @@
 ---
 ### _Powered By:_
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+
 [![Generic badge](https://img.shields.io/badge/Maintained-Yes-<color>.svg)](https://shields.io/) [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 
 Cruder is an easy to use API to help you build your application with users registrations, login and JWT authentications in some easy steps you'll have it all configured in your localhost.  
